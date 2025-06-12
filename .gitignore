@@ -397,4 +397,26 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+## CMake build artifacts
+# CMake build directory
+build/
+
+# CMake generated files
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+*.cmake
+
+# Executables and libraries
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# VS Code (already partially covered above, but ensuring completeness)
 /.vscode
+data/markers/runtime/**
